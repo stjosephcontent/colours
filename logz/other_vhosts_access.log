@@ -1,0 +1,4 @@
+colours.sjc.io:80 192.168.59.3 - - [04/Apr/2015:21:47:59 +0000] "GET / HTTP/1.1" 200 458 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36"
+colours.sjc.io:80 192.168.59.3 - - [04/Apr/2015:21:47:59 +0000] "GET /style.css HTTP/1.1" 200 422 "http://colours.docker:49160/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36"
+colours.sjc.io:80 192.168.59.3 - - [04/Apr/2015:21:47:59 +0000] "GET /colours.css HTTP/1.1" 200 337 "http://colours.docker:49160/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36"
+colours.sjc.io:80 192.168.59.3 - - [04/Apr/2015:21:48:00 +0000] "GET /favicon.ico HTTP/1.1" 404 508 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36"

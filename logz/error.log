@@ -1,0 +1,9 @@
+AH00112: Warning: DocumentRoot [/var/www/domains/bluegreen] does not exist
+AH00112: Warning: DocumentRoot [/var/www/domains/orangeblue] does not exist
+AH00112: Warning: DocumentRoot [/var/www/domains/redblack] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.38. Set the 'ServerName' directive globally to suppress this message
+[Sat Apr 04 21:34:48.554892 2015] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Ubuntu) configured -- resuming normal operations
+[Sat Apr 04 21:34:48.555096 2015] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.44. Set the 'ServerName' directive globally to suppress this message
+[Sat Apr 04 21:45:59.695449 2015] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Ubuntu) configured -- resuming normal operations
+[Sat Apr 04 21:45:59.695661 2015] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'

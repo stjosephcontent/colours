@@ -1,0 +1,1 @@
+docker run -d -P -v $PWD/domains:/var/www/domains -v $PWD/sites-available:/etc/apache2/sites-available -v $PWD/logz:/var/log/apache2 sean9999/lampx
