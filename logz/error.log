@@ -7,3 +7,24 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.44. Set the 'ServerName' directive globally to suppress this message
 [Sat Apr 04 21:45:59.695449 2015] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Ubuntu) configured -- resuming normal operations
 [Sat Apr 04 21:45:59.695661 2015] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Sep 16 20:08:43.049606 2015] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Ubuntu) configured -- resuming normal operations
+[Wed Sep 16 20:08:43.050115 2015] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Sep 16 20:10:27.042023 2015] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Ubuntu) configured -- resuming normal operations
+[Wed Sep 16 20:10:27.042250 2015] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.17. Set the 'ServerName' directive globally to suppress this message
+[Wed Sep 16 20:15:07.510417 2015] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Ubuntu) configured -- resuming normal operations
+[Wed Sep 16 20:15:07.510622 2015] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Sep 16 20:17:19.525568 2015] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Ubuntu) configured -- resuming normal operations
+[Wed Sep 16 20:17:19.525928 2015] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Sep 16 20:38:42.340914 2015] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Ubuntu) configured -- resuming normal operations
+[Wed Sep 16 20:38:42.341230 2015] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Sep 16 20:39:44.940449 2015] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Ubuntu) configured -- resuming normal operations
+[Wed Sep 16 20:39:44.940768 2015] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Sep 16 20:39:56.164509 2015] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Ubuntu) configured -- resuming normal operations
+[Wed Sep 16 20:39:56.164775 2015] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Sep 16 20:40:16.412366 2015] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.10 (Ubuntu) configured -- resuming normal operations
+[Wed Sep 16 20:40:16.412568 2015] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Sep 16 20:41:00.177768 2015] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Ubuntu) configured -- resuming normal operations
+[Wed Sep 16 20:41:00.178088 2015] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Sep 16 20:44:56.036115 2015] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Ubuntu) configured -- resuming normal operations
+[Wed Sep 16 20:44:56.036473 2015] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'

@@ -14,8 +14,9 @@ RUN apt-get update \
     lynx \
     nano
 VOLUME ["/var/www/html", "/var/log/apache2", "/etc/apache2/sites-available"]
-COPY sites-available/ /etc/apache2/sites-available/
-COPY domains/colours/web/ /var/www/html/
+COPY ./sites-available /etc/apache2/sites-available
+RUN rm /var/www/html/index.html
+COPY ./domains/colours/web /var/www/html
 RUN a2ensite 000-default
 EXPOSE 80
 
@@ -23,7 +24,7 @@ EXPOSE 80
 ENV ORCHESTRA_PROJECT tester
 ENV ORCHESTRA_APP colours
 ENV ORCHESTRA_SERVICE apache
-LABELS io.sjc.orchestra.version 0.0.1
+LABEL io.sjc.orchestra.version 0.0.1
 
 #   Process
 CMD ["apache2ctl","-DFOREGROUND"]

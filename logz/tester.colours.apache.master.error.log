@@ -1,0 +1,12 @@
+[Wed Sep 16 20:08:54.080820 2015] [core:info] [pid 7] [client 192.168.99.1:52120] AH00128: File does not exist: /var/www/html/favicon.ico, referer: http://192.168.99.100:32771/
+[Wed Sep 16 20:10:37.601990 2015] [core:info] [pid 7] [client 192.168.99.1:52144] AH00128: File does not exist: /var/www/html/favicon.ico, referer: http://192.168.99.100:32772/
+[Wed Sep 16 20:17:28.177768 2015] [core:info] [pid 7] [client 192.168.99.1:52195] AH00128: File does not exist: /var/www/html/favicon.ico, referer: http://192.168.99.100:32774/
+[Wed Sep 16 20:45:14.521090 2015] [:error] [pid 7] [client 192.168.99.1:52369] PHP Notice:  Undefined index: ORCHESTRA_PROJECT in /var/www/html/index.php on line 11
+[Wed Sep 16 20:45:14.521297 2015] [:error] [pid 7] [client 192.168.99.1:52369] PHP Notice:  Undefined index: ORCHESTRA_APP in /var/www/html/index.php on line 12
+[Wed Sep 16 20:45:14.521441 2015] [:error] [pid 7] [client 192.168.99.1:52369] PHP Notice:  Undefined index: ORCHESTRA_SERVICE in /var/www/html/index.php on line 13
+[Wed Sep 16 20:45:14.521554 2015] [:error] [pid 7] [client 192.168.99.1:52369] PHP Notice:  Undefined index: ORCHESTRA_REF in /var/www/html/index.php on line 14
+[Wed Sep 16 20:45:14.668247 2015] [core:info] [pid 7] [client 192.168.99.1:52369] AH00128: File does not exist: /var/www/html/favicon.ico, referer: http://192.168.99.100:32780/
+[Wed Sep 16 20:45:16.621946 2015] [:error] [pid 7] [client 192.168.99.1:52369] PHP Notice:  Undefined index: ORCHESTRA_PROJECT in /var/www/html/index.php on line 11
+[Wed Sep 16 20:45:16.622104 2015] [:error] [pid 7] [client 192.168.99.1:52369] PHP Notice:  Undefined index: ORCHESTRA_APP in /var/www/html/index.php on line 12
+[Wed Sep 16 20:45:16.622237 2015] [:error] [pid 7] [client 192.168.99.1:52369] PHP Notice:  Undefined index: ORCHESTRA_SERVICE in /var/www/html/index.php on line 13
+[Wed Sep 16 20:45:16.622366 2015] [:error] [pid 7] [client 192.168.99.1:52369] PHP Notice:  Undefined index: ORCHESTRA_REF in /var/www/html/index.php on line 14
