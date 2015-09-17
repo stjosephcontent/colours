@@ -7,9 +7,6 @@ containername=$project-$appname-$branch-$servicename
 imagename=$imagebase-$servicename:$branch
 IS_AMBASSADOR="$(jshon -e services -e $servicename -e ambassador -u < $appdef)"
 
-#docker stop $containername 2> /dev/null
-#docker rm $containername 2> /dev/null
-
 if [ "$malleability" == "hard" ]; then
     docker run -P -d \
         --label io.sjc.orchestra.version="$ORCHESTRA_VERSION" \

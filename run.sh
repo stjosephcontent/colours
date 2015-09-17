@@ -11,5 +11,5 @@ fi
 bash $DIR/stop.sh
 
 for service in $services; do
-    bash $DIR/services/$service/run_$hs.sh $service $hs;
+    bash $DIR/services/$service/run.sh $service $hs;
 done
