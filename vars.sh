@@ -7,4 +7,5 @@ project="$(jshon -e project -e name -u < $appdef)"
 appname=$(jshon -e name -u < $appdef)
 appslug=$(jshon -e slug -u < $appdef)
 branch="$(git rev-parse --abbrev-ref @)"
+services="$(jshon -e services -k < $appdef)"
 imagebase=sean9999/$project-$appslug
