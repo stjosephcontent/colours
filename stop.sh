@@ -1,6 +1,7 @@
 #!/bin/bash
 
-source ./vars.sh
+DIR=$(git rev-parse --show-toplevel)
+source $DIR/vars.sh
 
 for service in $services; do
     docker stop $project-$appslug-$branch-$service \

@@ -1,7 +1,7 @@
 #!/bin/bash
 
-source ./vars.sh
-services="$(jshon -e services < $appdef | jshon -k)"
+DIR=$(git rev-parse --show-toplevel)
+source $DIR/vars.sh
 
 for service in $services;
 do
