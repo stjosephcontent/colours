@@ -8,7 +8,7 @@ else
     hs="soft"
 fi
 
-bash $DIR/stop.sh
+bash $DIR/stop.sh 2> /dev/null
 
 for service in $services; do
     bash $DIR/services/$service/run.sh $service $hs;
