@@ -16,7 +16,7 @@ RUN apt-get update \
 VOLUME ["/var/www/html", "/var/log/apache2", "/etc/apache2/sites-available"]
 COPY ./sites-available /etc/apache2/sites-available
 RUN rm /var/www/html/*
-COPY ./domains/colours/web/ /var/www/html/
+COPY ./domains/colours/web /var/www/html
 RUN a2ensite 000-default
 EXPOSE 80
 
