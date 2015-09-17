@@ -24,7 +24,7 @@ EXPOSE 80
 ENV ORCHESTRA_PROJECT tester
 ENV ORCHESTRA_APP colours
 ENV ORCHESTRA_SERVICE apache
-LABEL io.sjc.orchestra.version 0.0.1
+LABEL io.sjc.orchestra.version="0.0.1"
 
 #   Process
 CMD ["apache2ctl","-DFOREGROUND"]

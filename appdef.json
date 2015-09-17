@@ -1,6 +1,10 @@
 {
+	"orchestra": {
+		"version": "0.0.1"
+	},
 	"project": {
-		"name": "tester"
+		"name": "tester",
+		"slug": "tester"
 	},
 	"name": "colours",
 	"slug": "colours",

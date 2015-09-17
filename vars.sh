@@ -2,7 +2,8 @@
 
 DIR=$(git rev-parse --show-toplevel)
 appdef=$DIR/appdef.json
-project="$(jshon -e project < $appdef | jshon -e name -u)"
+ORCHESTRA_VERSION="$(jshon -e orchestra -e version -u < $appdef)"
+project="$(jshon -e project -e name -u < $appdef)"
 appname=$(jshon -e name -u < $appdef)
 appslug=$(jshon -e slug -u < $appdef)
 branch="$(git rev-parse --abbrev-ref @)"
