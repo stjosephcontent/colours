@@ -2,6 +2,6 @@
 
 source $(git rev-parse --show-toplevel)/vars.sh
 
-servicename=apache
+servicename=$1
 
 docker build -t $imagebase-$servicename:$branch $DIR/services/$servicename
