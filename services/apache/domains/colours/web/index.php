@@ -4,7 +4,7 @@
 		<meta charset="utf8" />
 		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="colours.css" />
-		<title>hello</title>
+		<title><?= getenv('ORCHESTRA_APP') . ':' . getenv('ORCHESTRA_REF') ?></title>
 	</head>
 	<body>
 		<?php
