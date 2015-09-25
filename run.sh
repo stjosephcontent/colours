@@ -1,6 +1,7 @@
 #!/bin/bash
 
-source ./vars.sh
+DIR=$(git rev-parse --show-toplevel)
+source $DIR/vars.sh
 
 if [ "$1" == '--hard' ]; then
     hs="hard"
